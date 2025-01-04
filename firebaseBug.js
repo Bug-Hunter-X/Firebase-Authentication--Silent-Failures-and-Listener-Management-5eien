@@ -1,0 +1,1 @@
+The Firebase Authentication SDK might throw an unexpected error if the user's credentials are invalid or if there is a network issue.  This can lead to a silent failure where the application doesn't provide clear feedback to the user.  Additionally, improper handling of the `onAuthStateChanged` listener can cause memory leaks or unexpected behavior.
